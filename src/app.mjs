@@ -1,5 +1,4 @@
 import express from 'express';
-import dotenv from 'dotenv';
 import http from 'http';
 import morgan from 'morgan';
 import bodyParser from 'body-parser';
@@ -14,7 +13,7 @@ import aboutRouter from '../routes/about.mjs';
 import contactRouter from '../routes/contact.mjs';
 import sportsRouter from '../routes/sports.mjs';
 
-dotenv.config({ path: './app.env'});
+// dotenv.config({ path: './app.env'});
 const port = process.env.PORT || 5000;
 const app = express();
 
