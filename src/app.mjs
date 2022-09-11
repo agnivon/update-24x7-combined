@@ -18,10 +18,13 @@ dotenv.config({ path: './app.env'});
 const port = process.env.PORT || 5000;
 const app = express();
 
+const MONGODB_USERNAME = process.env.MONGODB_USERNAME;
+const MONGODB_PASSWORD = process.env.MONGODB_PASSWORD;
+
 if (process.env.NODE_ENV === 'development') {
     var MONGO_URI = 'mongodb://localhost:27017/edureka-nodejs-cp';
 } else {
-    var MONGO_URI = 'mongodb://mongoservice:27017/edureka-nodejs-cp';
+    var MONGO_URI = `mongodb+srv://${MONGODB_USERNAME}:${MONGODB_PASSWORD}@cluster0.uvwcatu.mongodb.net/edureka-nodejs-cp`;
 }
 
 app.set('view engine', 'ejs');
