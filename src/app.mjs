@@ -1,12 +1,12 @@
 import express from 'express';
 import http from 'http';
-import morgan from 'morgan';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import initGlobalChat from './gbchat.mjs';
 import session from 'express-session';
 import authRouter from '../admin/routes/auth.mjs';
 import adminRouter from '../admin/routes/admin.mjs';
+// import morgan from 'morgan';
 
 import {homeRouter} from '../routes/home.mjs';
 import aboutRouter from '../routes/about.mjs';
@@ -29,7 +29,7 @@ if (process.env.NODE_ENV === 'development') {
 app.set('view engine', 'ejs');
 app.set('views', './views');
 app.use(express.static('./public'));
-app.use(morgan('dev'));
+// app.use(morgan('dev'));
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
