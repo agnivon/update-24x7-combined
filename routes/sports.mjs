@@ -1,8 +1,5 @@
 import express from 'express';
 import axios from 'axios';
-import dotenv from 'dotenv';
-
-dotenv.config({path: './app.env'})
 
 const currentDate = (new Date()).toISOString().slice(0, 10);
 const NEWSAPI_API_KEY = process.env.NEWSAPI_API_KEY;
