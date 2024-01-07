@@ -29,6 +29,8 @@ Finally, the both web applications will be deployed in separate docker container
 - 3 Latest News
 - Chat Box
 
+![Mockup 1](/assets/mockup-1.png "Mockup 1")
+
 #### 1. Home Page: 
 Should include following sections:
   - Header
@@ -45,14 +47,20 @@ Should include following sections:
 - Header is the top section of your web application which consists the tabs shown below
 - This header section should appear on every page of your web application.
 
+![Mockup 2](/assets/mockup-2.png "Mockup 2")
+
 #### 3. Footer:
 This should be added to bottom of each page. Here you can add page number, copyrights and contact number.
 
 #### 4. About Us: 
 Here you have to provide information of your company as well as its location using google map.
 
+![Mockup 3](/assets/mockup-3.png "Mockup 3")
+
 #### 5. Contact Us: 
 Create a HTML form through which user can send query and all emails should be received on generic id.
+
+![Mockup 4](/assets/mockup-4.png "Mockup 4")
 
 #### 6. Sports Section 
 Should display latest sports news (design it as per your creativity).
@@ -60,8 +68,12 @@ Should display latest sports news (design it as per your creativity).
 #### 7. Weather: 
 Use https://openweathermap.org/api to fetch latest weather report and display on the screen by getting user location from browser.
 
+![Mockup 5](/assets/mockup-5.png "Mockup 5")
+
 #### 8. Image Slider: 
 It should display the images related to News.
+
+![Mockup 6](/assets/mockup-6.png "Mockup 6")
 
 #### 9. Chat Box: 
 In this section, people can have group discussion on any particular topic.
@@ -78,11 +90,19 @@ It should include following sections
 #### 1. Register and Login pages 
 Design the Register and login pages as shown below. Admin-User should be authenticated using JWT.
 
+![Mockup 7](/assets/mockup-7.png "Mockup 7")
+
 #### 2. Add New News: 
 Once the user Logs in into the page. Design this section as shown below.
+
+![Mockup 8](/assets/mockup-8.png "Mockup 8")
 
 #### 3. DataView List Fig:
 Design the section as shown below.
 
+![Mockup 9](/assets/mockup-9.png "Mockup 9")
+
 ## Deployment: 
 This both web applications should be deployed in Docker containers and incoming traffic should be managed by a reverse proxy server Nginx.
+
+![Deployment Diagram](/assets/deployment-diagram.png "Desployment Diagram")
