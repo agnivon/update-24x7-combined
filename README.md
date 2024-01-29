@@ -8,7 +8,7 @@ We were hired as Node.js Developers and our job is to develop the web applicatio
 The goal of this project is to develop two web applications: Customer facing The Customer facing web application is categorized into Latest News, Weather Update, Live Group Chat, and Sports Section. 
 News data related to all the categories should be stored and fetched via MongoDB. Admin At Admin page, admin should log in to the website using their credentials, which are authenticated through JWT. 
 Admin can add, edit, and delete news from the database. Create an API which can be consumed in Customer facing web application. 
-Finally, the both web applications will be deployed in separate docker containers and incoming traffic will be managed by a reverse proxy server Nginx. Web Application 
+Finally, the both web applications will be deployed in separate docker containers and incoming traffic will be managed by a reverse proxy server Nginx. 
 
 ### Requirements:  
 #### Frontend: 
