@@ -1,8 +1,8 @@
 
-# To Build A Media App Using Node.js, MongoDB, EJS Template, REST APIs, and JWT Background: 
+# Building A Media App Using Node.js, MongoDB, EJS Template, REST APIs, and JWT Background: 
 “Update 24x7” is a company which delivers news via Newspaper. In order to increase the customer reach, they have decided to go online. 
 So, they are planning to build a dynamic web application. They also want a separate admin page to manage the news data. 
-You are hired as a Node.js Developer, your job is to develop the web application as per the company's requirement. 
+We were hired as Node.js Developers and our job is to develop the web application as per the company's requirement. 
 
 ### Goal: 
 The goal of this project is to develop two web applications: Customer facing The Customer facing web application is categorized into Latest News, Weather Update, Live Group Chat, and Sports Section. 
